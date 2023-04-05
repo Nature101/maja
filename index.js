@@ -1,7 +1,7 @@
 // initializing installed packages
 const express = require("express");
 const app = express();
-// const bodyParser = require("body-parser")
+const bodyParser = require("body-parser")
 const nodemailer = require("nodemailer");
 const cors = require("cors");
 // declearing which port my server will be listening on
